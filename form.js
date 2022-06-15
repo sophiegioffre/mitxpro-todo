@@ -1,6 +1,6 @@
 // user input - includes validation
-function TodoForm({addTodo}){
-  const [value,setValue] = React.useState('');
+const TodoForm = ({addTodo}) => {
+  const [value, setValue] = React.useState('');
   
   const handleSubmit = e => {
     e.preventDefault();
